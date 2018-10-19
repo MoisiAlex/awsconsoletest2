@@ -1,0 +1,295 @@
+button {
+    border: 0;
+    background: none;
+    box-shadow: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+#ccpAppContainerDiv {
+    box-shadow: 2px 2px 2px grey;
+    border: 2px solid dimgrey;
+    border-radius: 5px;
+    position: relative;
+    height:465px;
+    width:321px;
+    background-color: #F2F2F2;
+}
+
+#status_header {
+    font-size: 16pt;
+    color: white;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 45px
+}
+
+#topMenuDiv {
+    background-color: #525252;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#home_button {
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 20px;
+    width: 30px;
+}
+
+#change_status_button {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    padding-top: 2px;
+    width: 100px;
+}
+
+#settings_button {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    right: 8px;
+}
+
+.topMenuContainer {
+    padding: 7px 0;
+}
+
+.stateContainer {
+    height: 415px;
+    position: relative;
+    top: 45px;
+}
+
+.buttonPanel {
+    bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    flex-wrap: wrap;
+}
+
+.statePanel {
+    background-color: #4393CA;
+    color: white;
+    height:170px;
+    position: relative;
+}
+
+.filler {
+    height: 100px;
+}
+
+.stateLabel {
+    color: white;
+    font-size: 2rem;
+}
+
+.stateInfo {
+    bottom: 20;
+    display: flex;
+    font-size: 14px;
+}
+
+.rightStateInfo {
+    margin-left: auto;
+    text-align: right;
+}
+
+.language_option {
+    float: left;
+    font-family: Arial, sans-serif;
+}
+
+.language_option:hover {
+    background-color: #63a5e2;
+    color: white;
+}
+
+.quickConnectOption {
+    cursor: pointer;
+}
+
+
+.bottom_panel_button {
+    font-size: 12pt;
+    position: relative;
+    background-color: white;
+    top: 350px;
+    color: black;
+    height: 50px;
+    width: 150px;
+}
+
+.action_panel {
+    border-color: #63a5e2;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    margin-top: 45px;
+}
+
+.action_panel_header, .settings_panel_header {
+
+    font-size: 16pt;
+    color: #566987;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.dialButtonLetters {
+    font-size: 8pt;
+}
+
+.exit_button,
+.exit_button:focus {
+    outline-width: 0;
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
+#get_to_dial_pad_div {
+    position: relative;
+    z-index: 0;
+}
+
+.dial_pad_button {
+    margin: 5px;
+    height: 60px;
+    width: 60px;
+    font-size: 22pt;
+}
+
+.countryChoiceListItem {
+    cursor: pointer;
+}
+
+#dial_\*, #dial_\# {
+    font-size: 1.5rem;
+}
+
+#country_code_select {
+    height: 30px;
+    font-size: 16pt;
+    width: 60px
+}
+
+.countryCodeChoice:hover {
+    cursor: pointer;
+}
+
+/* #outbound_dial_button {
+    position: relative;
+    background-color: #566987;
+    width: 40px;
+    height: 30px;
+    bottom: 3px
+} */
+
+.dialButtonGroup,
+.dialInputContainer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#dial_pad_number_input {
+    font-size: 16pt;
+    height: 30px;
+    width: 125px;
+    position: relative;
+    bottom: 3px
+}
+
+.call_control_button {
+    height: 50px;
+    width: 75px;
+    color: white;
+}
+
+.CountryCodeList {
+    text-align: left;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    max-height: 150px;
+    padding: 5px;
+    overflow-y: auto;
+    box-shadow: 0 0px 9px rgba(0,0,0,0.2);
+    border: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    z-index: 10;
+}
+
+.callController .btn {
+  width: 135px;
+}
+
+.callController .btn.btn-block {
+  width: 100%;
+}
+
+.inCallButtons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.inCallButtons .btn {
+  margin-bottom: 5px;
+}
+
+.inCallButtons .btn:nth-child(odd) {
+  margin-left: 5px;
+}
+
+.callInfo {
+  position: relative;
+}
+
+.rightCallInfo {
+  position: absolute;
+  text-align: right;
+  right: 0;
+}
+
+.leftCallInfo {
+  position: absolute;
+}
+
+.callControlContainer {
+  margin-top: 20px;
+}
+
+.grey-bg {
+  background-color: #666666;
+}
+
+.green-bg {
+  background-color: #109B2B;
+}
+
+.yellow-bg {
+  background-color: #E07725;
+}
+
+.halfLength {
+  height: 85px;
+}
+
+.halfLength .stateLabel {
+  font-size: 1.5rem;
+}
